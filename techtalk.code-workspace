@@ -1,10 +1,12 @@
 {
 	"folders": [
 		{
-			"path": "../techtalk"
+			"name": "techtalkclient",
+			"path": "techtalkclient"
 		},
 		{
-			"path": "../techtalkclient"
+			"name": "techtalk",
+			"path": "techtalk"
 		}
 	],
 	"settings": {}
