@@ -34,6 +34,7 @@ namespace techtalk
               options.Authority = $"https://{Configuration["Auth0:Domain"]}/";
               options.Audience = Configuration["Auth0:Audience"];
           });
+
             services.AddCors(options =>
           {
               options.AddPolicy("CorsDevPolicy", builder =>
