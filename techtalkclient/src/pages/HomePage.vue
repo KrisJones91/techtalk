@@ -59,7 +59,6 @@ export default {
         try {
           await postsService.createBug(state.newBug)
           state.newBug = {}
-          // router.push({ name: 'Bug', params: { id } })
         } catch (error) {
           logger.log(error)
         }
